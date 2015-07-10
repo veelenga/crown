@@ -1,6 +1,6 @@
 require "frank"
 require "http"
-require "./views/index"
+require "./crown/views/*"
 
 def headers
   headers = HTTP::Headers.new
@@ -21,5 +21,5 @@ end
 get "/" do |context|
   md = markdown("./README.md")
   context.response.content_type = "text/html"
-  Views::Index.new to_html(md)
+  Crown::Views::Index.new to_html(md)
 end

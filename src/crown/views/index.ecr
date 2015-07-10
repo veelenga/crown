@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      <%= content_of "https://cdn.rawgit.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css" %>
+
+      .markdown-block {
+        min-width: 200px;
+        max-width: 790px;
+        margin: 0 auto;
+        padding: 30px;
+      }
+    </style>
+    <title>Crown</title>
+  </head>
+
+  <body>
+    <div id="markdown-block" class="markdown-block">
+      <article id="markdown-body" class="markdown-body">
+        <%= content %>
+      </article>
+    </div>
+  </body>
+
+</html>
