@@ -4,12 +4,22 @@
     <meta charset="utf-8" />
     <style>
       <%= content_of "https://cdn.rawgit.com/sindresorhus/github-markdown-css/gh-pages/github-markdown.css" %>
-
       .markdown-block {
         min-width: 200px;
         max-width: 790px;
         margin: 0 auto;
         padding: 30px;
+        border-radius: 25px;
+        transition: 1s ease;
+        -webkit-box-shadow: 0 0 5px 0px #888;
+        -moz-box-shadow: 0 0 5px 0px #888;
+        box-shadow: 0 0 5px 0px #888;
+      }
+
+      .markdown-block:hover {
+        -webkit-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
       }
     </style>
     <title>Crown</title>
