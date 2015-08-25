@@ -1,4 +1,6 @@
-# Crown
+# Crown [![Build Status](https://travis-ci.org/veelenga/crown.svg)](https://travis-ci.org/veelenga/crown)
+
+
 
 **Cr**(ystal) (Markd)**own** helps to preview markdown files locally with [Github Markdown API](https://developer.github.com/v3/markdown/#render-a-markdown-document-in-raw-mode) or Crystal Markdown.
 
