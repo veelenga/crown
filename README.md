@@ -1,15 +1,15 @@
 # Crown
 
-**Cr**(ystal) (Markd)**own** helps to preview your markdown files locally with [Github Markdown API](https://developer.github.com/v3/markdown/#render-a-markdown-document-in-raw-mode).
+**Cr**(ystal) (Markd)**own** helps to preview markdown files locally with [Github Markdown API](https://developer.github.com/v3/markdown/#render-a-markdown-document-in-raw-mode) or Crystal Markdown.
 
+## TODO
 
-## Todo
-
-  * [ ]  Binary
-  * [ ]  Stylesheets
-  * [ ]  Command line options
-  * [ ]  User authentication
-  * [ ]  File list to preview
+  * [X] Nice stylesheets
+  * [X] HTML cache
+  * [ ] Command line options
+  * [ ] Binary
+  * [ ] User authentication
+  * [ ] File list to preview
 
 ## Contributing
 
